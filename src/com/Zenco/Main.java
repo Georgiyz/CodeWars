@@ -23,8 +23,9 @@ public class Main {
 
     private static void testWordSpin(){
         WordSpin test = new WordSpin();
-
-        test.spinWords("I am cat four lives mined juicy heartily");
+        String review ="";
+        review=test.spinWords("I am cat four lives mined juicy heartily");
+        System.out.println(review);
     }
 
 }
