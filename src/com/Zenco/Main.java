@@ -3,7 +3,7 @@ package com.Zenco;
 public class Main {
 
     public static void main(String[] args) {
-
+        testWordSpin();
     }
 
     private static void testNseries() {
@@ -19,6 +19,12 @@ public class Main {
         }
 
         //Section for testing an array of test values
+    }
+
+    private static void testWordSpin(){
+        WordSpin test = new WordSpin();
+
+        test.spinWords("I am cat four lives mined juicy heartily");
     }
 
 }

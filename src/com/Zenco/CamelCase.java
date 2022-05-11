@@ -6,7 +6,7 @@ public class CamelCase {
 
         for(int i=0; i < input.length(); i++){
             if (Character.isUpperCase(input.charAt(i))){
-                input.//todo: figure out how to insert space
+                //todo: figure out how to insert space
             }
         }
 
