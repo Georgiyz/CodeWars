@@ -3,7 +3,7 @@ package com.Zenco;
 public class Main {
 
     public static void main(String[] args) {
-        testWordSpin();
+        testLexi();
     }
 
     private static void testNseries() {
@@ -26,6 +26,14 @@ public class Main {
         String review ="";
         review=test.spinWords("I am cat four lives mined juicy heartily");
         System.out.println(review);
+    }
+
+    private static void testLexi(){
+        Lexicographical testClass = new Lexicographical();
+        String[] a1Test = {"ore", "ing", "per", "the"};
+        String[] a2Test = {"bored", "moored", "copper", "feinstel", "cipher", "ring", "summoning"};
+
+        testClass.inArray(a1Test, a2Test);
     }
 
 }
