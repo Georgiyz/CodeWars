@@ -3,7 +3,12 @@ package com.Zenco;
 public class Main {
 
     public static void main(String[] args) {
-        testLexi();
+        testLargestDigit();
+    }
+
+    private static void testLargestDigit(){
+        LargestDigits ld = new LargestDigits();
+        ld.solve("283910");
     }
 
     private static void testNseries() {
